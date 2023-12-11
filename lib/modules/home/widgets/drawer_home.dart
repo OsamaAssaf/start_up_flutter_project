@@ -15,7 +15,7 @@ import '../../../resources/validators.dart';
 import '../../../resources/widgets/can_use/underline_text_field.dart';
 
 class DrawerHome extends StatelessWidget {
-  const DrawerHome({Key? key}) : super(key: key);
+  const DrawerHome({super.key});
 
   @override
   Widget build(BuildContext context) {

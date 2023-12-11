@@ -5,7 +5,7 @@ import '../components.dart';
 
 class MainTextField extends StatelessWidget {
   const MainTextField({
-    Key? key,
+    super.key,
     this.controller,
     required this.hint,
     this.label,
@@ -25,7 +25,7 @@ class MainTextField extends StatelessWidget {
     this.minLines,
     this.maxLines = 1,
     this.suffixIcon,
-  }) : super(key: key);
+  });
 
   final TextEditingController? controller;
   final String? hint;

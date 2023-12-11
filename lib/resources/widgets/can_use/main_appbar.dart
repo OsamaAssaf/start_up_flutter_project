@@ -9,14 +9,14 @@ import '../../components.dart';
 
 class MainAppBar extends StatelessWidget implements PreferredSizeWidget {
   const MainAppBar({
-    Key? key,
+    super.key,
     required this.title,
     this.canBack = false,
     this.actions,
     this.bottom,
     this.haveTabBottom = false,
     this.hasFittedBox = false,
-  }) : super(key: key);
+  });
 
   final String title;
   final bool canBack;
